@@ -1,0 +1,27 @@
+.chat__notification {
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.user-component__column span {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+}
+
+.user-component__column last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.chatroom-divider {
+  margin-bottom: 25px;
+}

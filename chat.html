@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Chat with Wallace - GromitTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:37 AM</span>
+      </div>
+      <div class="status-bar__column">
+        <span>75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"><i class="fas fa-angle-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title" id="friend-name">Wallace</h1>
+      </div>
+      <div class="alt-header__column" id="chat-screen-icons">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, October 13, 2020</div>
+      <div class="message-row">
+        <img
+          src="https://steamuserimages-a.akamaihd.net/ugc/947336857386518699/EC03B45E6C93517581E981357D8A897FD6D47B41/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Wallace</span>
+          <div class="message__info">
+            <span class="message__bubble">Gromit wake up!</span>
+            <span class="message__time">10:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">What's up?</span>
+            <span class="message__time">10:05</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img
+          src="https://steamuserimages-a.akamaihd.net/ugc/947336857386518699/EC03B45E6C93517581E981357D8A897FD6D47B41/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Wallace</span>
+          <div class="message__info">
+            <span class="message__bubble">This is terrifying.</span>
+            <span class="message__time">10:06</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble" id="what-happened"
+              >...What happened?</span
+            >
+            <span class="message__time" id="what-happened-time">10:06</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://steamuserimages-a.akamaihd.net/ugc/947336857386518699/EC03B45E6C93517581E981357D8A897FD6D47B41/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Wallace</span>
+          <div class="message__info">
+            <span class="message__bubble">Someone stole my cheese!</span>
+            <span class="message__time">10:07</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <div class="reply__column__emojis">
+          <i class="far fa-grin fa-2x"></i>
+          <i class="fas fa-arrow-circle-up fa-2x"></i>
+        </div>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <div>Your screen is way to big!</div>
+      <div>Please adjust it to the smallest size :)</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/c574452a0f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Chats - GromitTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>10:37 AM</span>
+      </div>
+      <div class="status-bar__column">
+        <span>75%</span>
+        <i class="fas fa-battery-three-quarters"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search"></i></span>
+        <span><i class="far fa-comment-dots"></i></span>
+        <span><i class="fas fa-music"></i></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://steamuserimages-a.akamaihd.net/ugc/947336857386518699/EC03B45E6C93517581E981357D8A897FD6D47B41/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__name">Wallace</h4>
+              <h6 class="user-component__subtitle">Someone stole my cheese!</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>10:36 AM</span>
+            <div class="chat__notification">1</div>
+          </div>
+        </div>
+      </a>
+      <div class="chatroom-divider"></div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-f3qxzs_4923c203.jpeg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Ratatouille</h4>
+            <h6 class="user-component__subtitle">
+              Wanna hang out this weekend?
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>10:05 AM</span>
+        </div>
+      </div>
+      <div class="chatroom-divider"></div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://i.pinimg.com/originals/c6/67/ad/c667ad716de03179cadc59410ebbb289.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__name">Fluffles</h4>
+            <h6 class="user-component__subtitle">I miss you...</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>10:27 AM</span>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fas fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__alert"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div>Your screen is way to big!</div>
+      <div>Please adjust it to the smallest size :)</div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/c574452a0f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
